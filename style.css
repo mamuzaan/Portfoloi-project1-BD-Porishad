@@ -122,3 +122,20 @@ table, td, th{
     float: right;
     color:rgb(212, 240, 67)
 }
+
+/* Social media link */
+.social-link{
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.social-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-inline-start: 3em;
+    color:rgb(32, 225, 22);
+}
+
+.social-link a:hover{
+    color: inherit;
+}
