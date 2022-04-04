@@ -116,3 +116,9 @@ table, td, th{
     color: white;
     padding: 1em;
 }
+
+/* Anchor tag go top of the page */
+.go-top a{
+    float: right;
+    color:rgb(212, 240, 67)
+}
