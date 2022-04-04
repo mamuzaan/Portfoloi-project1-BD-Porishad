@@ -190,3 +190,66 @@ table, td, th{
         text-align: justify;
     }
 }
+
+/* For small screen size from 480px and down */
+@media screen and (max-width: 480px){
+    #logo {
+        float:left;
+    }
+
+    #main-menu{
+        padding: 1.5px;
+        background-color: whitesmoke;
+    }
+    #main-menu a{
+        text-decoration: none;
+        color:brown;
+        float: right;
+        padding-left: 1em;
+    }
+    
+    #main-menu li{
+        display: inline;
+        font-size: 10px;
+    }
+
+    #porishad-image{
+        padding-top: 7px;
+    }
+    
+    .main-image{
+        height: 225px;
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    #bd-text{
+        display: grid;
+        text-align: center;
+        height: 225px;
+        width: 100%;
+        background-color: rgb(237, 234, 229);
+    }
+    
+    .heading-bd{
+        padding-top: 1.5em;
+        color: blue;
+    }
+    
+    .bd-text-p{
+        padding: 1em;
+        text-align: justify;
+        box-sizing: border-box;
+    }
+
+    .social-link{
+        padding: 5px;
+        margin-top: 5px;
+    }
+    
+    .social-link a{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-inline-start: 12px;
+        color:rgb(149, 143, 230);
+    }
