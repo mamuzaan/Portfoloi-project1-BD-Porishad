@@ -37,3 +37,23 @@
 - This section is valuable to the user as its give them the ability to find and contact the Association.
 
 ![contact section screenshot](images/screenshot3.png)
+
+#### Testing
+- I test the different browser and it works.
+- I confirm that this project is responsive looks good and functions on all different screen size using the devtools.
+- I confirm that the navigation, header, about us, sign up, contact text are all readable and easy to understand.
+- I confirm that the form works requires entrys in every field and submit button works.
+
+#### Bugs 
+- When i deployed my project on github page, discovered my project. image doesn't work.
+- Fixed is problem.
+
+#### Validator testing
+- HTML 
+    - No errors ware return when passing through the official W3C validator.
+- CSS 
+    - No errors ware return when passing through the official (Jigsae) validator.
+- Accessibility
+    - I confirm that the color and font chosen are easy to read and accessible by running it through lighthouse in devtools
+
+![]
