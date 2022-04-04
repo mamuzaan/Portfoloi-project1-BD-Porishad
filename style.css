@@ -86,7 +86,6 @@
 
 .table-heading{
     padding: 1em;
-    
 }
 
 table, td, th{
@@ -98,7 +97,6 @@ table, td, th{
     box-sizing: border-box;
     display: block;
     background-color: rgb(217, 212, 234);
-
 }
 
 .form{
@@ -109,4 +107,12 @@ table, td, th{
 .form-heading{
     text-align: center;
     padding:1em;
+}
+
+/* Contact section */
+#contact-us{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 1em;
 }
