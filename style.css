@@ -41,3 +41,28 @@
     display: inline;
     padding-left: 1.5em;
 }
+
+/* clubs image */
+.main-image{
+    height: 450px;
+    width: 50%;
+    float: left;
+    padding-right: 2em;
+}
+
+/* BD Poriahad heading */
+#bd-text{
+    display: block;
+    text-align: center;
+    height: 450px;
+}
+
+.heading-bd{
+    padding-top: 3em;
+    color: rgb(101, 73, 4);
+}
+
+.bd-text-p{
+    padding: 1em;
+    text-align: justify;
+}
