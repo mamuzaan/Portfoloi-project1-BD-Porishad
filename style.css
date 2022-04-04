@@ -66,3 +66,29 @@
     padding: 1em;
     text-align: justify;
 }
+
+/* About us section */
+#about-bd-porishad{
+    background-color: rgb(195, 190, 183);
+    padding: 1.5em;
+    text-align: justify;
+}
+
+.about-section-heading{
+    text-align: center;
+    padding: 1em;
+}
+
+.about{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.table-heading{
+    padding: 1em;
+    
+}
+
+table, td, th{
+    border: 1px solid black;
+}
