@@ -92,3 +92,21 @@
 table, td, th{
     border: 1px solid black;
 }
+
+/* Sign Up Section */
+#sign-up-form{
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(217, 212, 234);
+
+}
+
+.form{
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.form-heading{
+    text-align: center;
+    padding:1em;
+}
