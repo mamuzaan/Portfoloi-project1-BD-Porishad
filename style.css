@@ -160,3 +160,33 @@ table, td, th{
         margin-top: 2em;
     }
 }
+
+/* For medium screen size from 768px wide and down */
+@media screen and (max-width:768px){ 
+    #main-menu{
+        padding: 1em;
+    }
+
+    .main-image{
+        height: 300px;
+        width: 50%;
+        float: left;
+        padding-right: 2em;
+    }
+    
+    #bd-text{
+        display: block;
+        text-align: center;
+        height: 268px;
+    }
+    
+    .heading-bd{
+        padding-top: 1.5em;
+        color: rgb(101, 73, 4);
+    }
+    
+    .bd-text-p{
+        padding: 1em;
+        text-align: justify;
+    }
+}
