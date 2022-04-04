@@ -6,3 +6,38 @@
     font-family: 'DM Serif Display', serif;
     box-sizing: border-box;
 }
+
+/* Nav section */
+#logo {
+    float:left;
+}
+
+#logo a{
+    text-decoration: none;
+    color: rgb(66, 3, 3);
+}
+
+#logo a:hover{
+    color: rgb(234, 4, 35);
+}
+
+#main-menu{
+    padding: 1em;
+}
+
+#main-menu a{
+    text-decoration: none;
+    color:brown;
+    float: right;
+    padding-left: 2em;
+}
+
+#main-menu a:hover{
+    color: rgb(51, 1, 1);
+}
+
+#main-menu li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 1.5em;
+}
