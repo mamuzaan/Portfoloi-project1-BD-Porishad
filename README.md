@@ -52,8 +52,20 @@
 - HTML 
     - No errors ware return when passing through the official W3C validator.
 - CSS 
-    - No errors ware return when passing through the official (Jigsae) validator.
+    - No errors ware return when passing through the official (Jigsaw) validator.
 - Accessibility
     - I confirm that the color and font chosen are easy to read and accessible by running it through lighthouse in devtools
 
-![]
+![lighthouse report screenshot](images/screenshoy11.png)
+
+#### Unfix bugs
+- no unfix bugs
+
+#### Diployment
+- Its successfully diployed on github.
+- live link is here (https://mamuzaan.github.io/Portfoloi-project1-BD-Porishad/)
+
+#### Credit
+- WcSchool.com, slack.
+- content:
+    - Its collect from BD Porishad facebook site.
