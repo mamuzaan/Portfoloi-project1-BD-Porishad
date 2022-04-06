@@ -84,17 +84,20 @@
     <!--Sign Up Form section-->
     <section id="sign-up-form">
         <form class="form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2 class="form-heading">Sign Up!</h2>
-            <label for="fname">First Name</label><br>
-            <input id="fname" name="first_name" type="text" required><br>
-            <label for="lname">Last Name</label><br>
-            <input id="lname" name="last_name" type="text" required><br>
-            <label for="email">Email Address</label><br>
-            <input id="email" name="email_address" type="email" required><br>
-            <label for="confirm-email">Confirm Email Address</label><br>
-            <input id="confirm-email" name="confirm_email_address" type="email" required><br>
-            <br>
-            <input class="submit-button" type="submit" Value="Submit">
+            <div class="form">
+                <h2 class="form-heading">Sign Up!</h2>
+                <p>Please fill in this form to sign up</p>
+                <label for="fname">First Name</label><br>
+                <input id="fname" name="first_name" type="text" placeholder="Enter First Name" required><br>
+                <label for="lname">Last Name</label><br>
+                <input id="lname" name="last_name" type="text" placeholder="Enter Last Name" required><br>
+                <label for="email">Email Address</label><br>
+                <input id="email" name="email_address" type="email" placeholder="Enter Email" required><br>
+                <label for="confirm-email">Confirm Email Address</label><br>
+                <input id="confirm-email" name="confirm_email_address" type="email" placeholder="Enter Confirm Email" required><br>
+                <br>
+                <button class="submit-button" type="submit">Submit</button>
+            </div>
         </form>
     </section>
 
