@@ -56,7 +56,7 @@
 - Accessibility
     - I confirm that the color and font chosen are easy to read and accessible by running it through lighthouse in devtools
 
-![lighthouse report screenshot](images/screenshoy11.png)
+![lighthouse report screenshot](images/screenshot11.png)
 
 #### Unfix bugs
 - no unfix bugs
