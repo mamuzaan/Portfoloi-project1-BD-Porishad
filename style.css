@@ -203,25 +203,58 @@ input[type=text], input[type=email] {
 
     .main-image{
         height: 300px;
-        width: 50%;
-        float: left;
-        padding-right: 2em;
+        width: 100%;
+        padding: 0;
     }
     
     #bd-text{
         display: block;
         text-align: center;
-        height: 268px;
     }
     
     .heading-bd{
-        padding-top: 1.5em;
+        padding-top: 2em;
         color: rgb(101, 73, 4);
     }
     
     .bd-text-p{
+        padding: 0 3em 0 3em;
+        text-align: center;
+    }
+
+    /* about us dection */
+    #about-bd-porishad{
         padding: 1em;
-        text-align: justify;
+    }
+        
+    .about-section-heading{
+        font-size: 1.5rem;
+    }
+        
+    .about-column{
+        float:left;
+        width: 33.33%;
+        padding: 2rem;
+        height: 490px;
+        overflow: auto;
+    }
+        
+    .table-heading{
+        padding-top: 1.5em;
+        padding-bottom: 1em;
+    }
+        
+    .table{
+        width: 50%;
+    }
+    
+    /* form section */    
+    input[type=text], input[type=email] {
+        width: 40%;
+    }
+        
+    .submit-button{
+      width: 40%;
     }
 }
 
