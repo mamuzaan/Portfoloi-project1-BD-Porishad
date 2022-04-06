@@ -166,6 +166,11 @@ input[type=text], input[type=email] {
     color:rgb(212, 240, 67)
 }
 
+.go-top{
+    padding-right: 1em;
+    font-size: 1em;
+}
+
 /* Social media link */
 .social-link{
     padding: 1em;
@@ -187,20 +192,6 @@ input[type=text], input[type=email] {
 @media screen and (max-width:1200px){
     #porishad-image{
         padding-top: 8px;
-    }
-    
-    .main-image{
-        height: 400px;
-        width: 50%;
-        float: left;
-        padding-right: 2em;
-    }
-    
-    #bd-text{
-        display: flex;
-        text-align: center;
-        height: 400px;
-        margin-top: 2em;
     }
 }
 
