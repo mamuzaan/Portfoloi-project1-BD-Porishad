@@ -76,19 +76,40 @@
 .about-section-heading{
     text-align: center;
     padding: 1em;
+    font-size: 2rem;
 }
 
-.about{
+.about-story-row{
+    display: table;
+    clear: both;
+}
+
+.colum-heading{
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 5px;
+}
+
+.about-column{
+    float:left;
+    width: 33.33%;
+    padding: 2rem;
+    height: 300px;
 }
 
 .table-heading{
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 8px;
+    text-align: center;
 }
 
 table, td, th{
     border: 1px solid black;
+}
+
+.table{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Sign Up Section */
