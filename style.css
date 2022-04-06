@@ -47,7 +47,6 @@
     height: 450px;
     width: 50%;
     float: left;
-    padding-right: 2em;
 }
 
 /* BD Poriahad heading */
@@ -63,8 +62,8 @@
 }
 
 .bd-text-p{
-    padding: 1em;
-    text-align: justify;
+    padding: 1em 4em 0 4em;
+    text-align: center;
 }
 
 /* About us section */
