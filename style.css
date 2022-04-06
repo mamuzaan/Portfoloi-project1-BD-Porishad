@@ -309,11 +309,86 @@ input[type=text], input[type=email] {
         box-sizing: border-box;
     }
 
+    /* about section */
+    .about-section-heading{
+        text-align: center;
+        font-size: 2rem;
+        padding: 1em;
+    }
+
+    .about-story-row{
+        display: table;
+        clear: both;
+    }
+
+    .colum-heading{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .about-column{
+        float:left;
+        width: 100%;
+        padding: 2rem;
+        height: 430px;
+        overflow: auto;
+        margin-bottom: 1em;
+    }
+
+    .table-heading{
+        padding-top: 1em;
+        padding-bottom: 8px;
+        text-align: center;
+        
+    }
+
+    table, td, th{
+        border: 1px solid black;
+    }
+
+    .table{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* sign up section */
+    .form{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .form-heading{
+        text-align: center;
+        padding:5px;
+    }
+
+    input[type=text], input[type=email] {
+        width: 65%;
+        padding: 8px;
+    }
+
+    .submit-button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    width: 65%;
+    opacity: 0.9;
+    }
+
+    .submit-button:hover {
+    background-color: green;
+    }
+
+
+    /* social link section */
     .social-link{
         padding: 5px;
         margin-top: 5px;
     }
-    
+
     .social-link a{
         text-decoration: none;
         text-transform: uppercase;
